@@ -1,0 +1,10 @@
+// ==== LAYOUT ==== //
+
+// These wrappers allow for backgrounds and layout options to be defined for each of the four sections (header, content, sidebar, and footer)
+// There is also a fifth meta-wrapper to bind content and sidebar on large screens
+
+// A general wrapper for various site elements
+%wrap {
+  box-sizing: border-box; // Makes life a little easier
+  padding: 0 spacer() 0 spacer();
+}

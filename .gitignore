@@ -1,0 +1,101 @@
+# Application
+wp/*.*
+wp/wp-admin
+wp/wp-includes
+!wp/wp-content/.gitkeep
+!wp/index.php
+!wp/wp-config.php
+!wp/wp-content/index.php
+
+wp/wp-content/themes/*
+!wp/wp-content/themes/index.php
+!wp/wp-content/themes/.gitkeep
+
+wp/wp-content/plugins/*
+!wp/wp-content/plugins/index.php
+!wp/wp-content/plugins/.gitkeep
+
+!/wp/wp-content/mu-plugins/*
+wp/wp-content/upgrade
+cache
+languages
+
+wp/wp-content/uploads/*
+!wp/wp-content/uploads/index.php
+!wp/wp-content/uploads/.gitkeep
+
+# WordPress
+wp/.htaccess
+
+# Dotenv
+.env
+.env.*
+!.env.example
+
+# Composer
+vendor/*
+!vendor/.gitkeep
+
+# Development
+.idea
+node_modules
+bower_components
+public
+Movefile
+!Movefile.example
+*.sql
+!elm_test.sql
+!*.gz
+
+# EasyEngine
+conf
+ee-config.php
+htdocs
+logs
+
+### OS's templates
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# macOS template
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk

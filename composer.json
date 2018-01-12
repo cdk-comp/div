@@ -1,0 +1,97 @@
+{
+  "name": "cdk/div",
+  "type": "project",
+  "license": "MIT",
+  "description": "WordPress boilerplate with modern development tools, easier configuration, and an improved folder structure, fork from BEDROCK",
+  "homepage": "http://cdk.co.il/",
+  "authors": [
+    {
+      "name": "Dima Minka",
+      "email": "cdk@cdk.co.il",
+      "homepage": "https://github.com/dimaminka"
+    }
+  ],
+  "keywords": [
+    "bedrock", "roots", "wordpress", "stack", "composer", "vagrant", "wp", "custom", "cdk", "divi"
+  ],
+  "support": {
+    "issues": "https://github.com/cdk-comp/div/issues",
+    "forum": "https://github.com/cdk-comp/div/issues"
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "wp-premium/divi",
+        "type": "wordpress-theme",
+        "version": "3.0.95",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/wp-premium-themes/Divi/archive/v3.0.95.zip"
+        },
+        "require" : {
+          "composer/installers": "~1.0"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "wp-premium/wp-rocket",
+        "type": "wordpress-plugin",
+        "version": "2.11.4",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/wp-premium-themes/wp-rocket/archive/v2.11.4.zip"
+        },
+        "require" : {
+          "composer/installers": "~1.0"
+        }
+      }
+    }
+  ],
+  "require": {
+    "php": ">=5.6",
+    "composer/installers": "~1.0.12",
+    "vlucas/phpdotenv": "^2.0.1",
+    "johnpbloch/wordpress": "4.9.*",
+    "oscarotero/env": "^1.0",
+    "roots/wp-password-bcrypt": "1.0.0",
+    "wpackagist-plugin/duplicate-post": "*",
+    "wpackagist-plugin/limit-login-attempts": "*",
+    "wpackagist-plugin/redirection": "*",
+    "wpackagist-plugin/wordpress-seo": "*",
+    "wpackagist-plugin/wp-mail-smtp": "*",
+    "wp-premium/divi": "*",
+    "wp-premium/wp-rocket": "*"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^2.5.1"
+  },
+  "extra": {
+    "installer-paths": {
+      "wp/wp-content/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "wp/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
+      "wp/wp-content/themes/{$name}/": ["type:wordpress-theme"]
+    },
+    "wordpress-install-dir": "wp-tmp"
+  },
+  "scripts": {
+    "test": [
+      "vendor/bin/phpcs"
+    ],
+    "post-install-cmd": [
+      "bash post-install.sh"
+    ],
+    "post-update-cmd": [
+      "bash post-update.sh"
+    ]
+  }
+}

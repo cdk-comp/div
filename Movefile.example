@@ -1,0 +1,61 @@
+global:
+  sql_adapter: "default"
+
+local:
+  vhost: "http://div.test"
+  wordpress_path: "/path/to/wp"
+
+  database:
+    name: "div_test"
+    user: "div_test"
+    password: "password"
+    host: "127.0.0.1"
+
+dev:
+  vhost: "http://div.com"
+  wordpress_path: "/path/to/wp"
+
+  database:
+    name: "database_name"
+    user: "user"
+    password: "password"
+    host: "127.0.0.1"
+
+  exclude:
+    - "*.sql"
+    - "*.gz"
+    - ".DS_Store"
+    - ".env.example"
+    - ".git/"
+    - ".gitignore"
+    - ".gitkeep"
+    - ".idea"
+    - ".sass-cache/"
+    - "bin/"
+    - "cache"
+    - "composer.json"
+    - "composer.lock"
+    - "conf"
+    - "ee-config.php"
+    - "elm_test.sql"
+    - "htdocs"
+    - "logs"
+    - "node_modules/"
+    - "post-install.sh"
+    - "post-update.sh"
+    - "public"
+    - "tmp/*"
+    - "wp-content/*.gz"
+    - "wp-content/*.sql"
+    - "CHANGELOG.md"
+    - "Gemfile*"
+    - "LICENSE.md"
+    - "Movefile"
+    - "Movefile.example"
+    - "README.md"
+    - "Thumbs.db"
+
+  ssh:
+    host: "host"
+    user: "user"
+    rsync_options: "--verbose"

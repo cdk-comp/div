@@ -1,0 +1,5 @@
+// ==== Admin ==== //
+
+;(function($){
+
+}(jQuery));

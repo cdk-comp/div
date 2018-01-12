@@ -1,0 +1,39 @@
+// ==== STYLES ==== //
+
+// Do not declare anything before the metadata block; this first section is solely for variable, function, and mixin definitions
+// Note: `bower_components` is already in Sass's path
+
+// Scut, a Sass utilities library: https://davidtheclark.github.io/scut/
+@import "scut";
+
+// Configuration variables and settings
+@import "common/config";
+
+// Library: mixins, functions, etc. specific to this theme
+@import "common/library";
+
+/*!
+Theme Name: #{metadata(theme-name)}
+Theme URI: #{metadata(theme-uri)}
+Author: #{metadata(theme-author)}
+Author URI: #{metadata(theme-author-uri)}
+Description: #{metadata(theme-description)}
+Version: #{metadata(theme-version)}
+License: #{metadata(theme-license)}
+License URI: #{metadata(theme-license-uri)}
+Tags: #{metadata(theme-tags)}
+Template: #{metadata(theme-template)}
+Text Domain: #{metadata(theme-text-domain)}
+Domain Path: #{metadata(theme-text-domain-path)}
+*/
+
+// Reset: eliminate default browser styling (optional; commented out by default)
+//@import "reset";
+
+// Everything else
+@import "common/helpers";
+@import "common/general";
+@import "layout/layout";
+@import "partials/menus";
+@import "partials/navigation";
+@import "layout/sidebar";
