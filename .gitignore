@@ -44,7 +44,7 @@ public
 Movefile
 !Movefile.example
 *.sql
-!elm_test.sql
+!div_test.sql
 !*.gz
 
 # EasyEngine
