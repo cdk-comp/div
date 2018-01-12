@@ -4,7 +4,7 @@ echo "==============="
 rsync -a wp-tmp/ wp/ && rm -rf wp-tmp
 echo "wp updated"
 echo "==============="
-wp db import elm_test.sql
+wp db import div_test.sql
 echo "wp db import"
 echo "==============="
 wp dotenv salts regenerate
