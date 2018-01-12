@@ -13,6 +13,7 @@ The project have db import by wp cli
 * Enhanced security (separated web root and secure passwords with [wp-password-bcrypt](https://github.com/roots/wp-password-bcrypt))
 * Custom child theme with gulp starter kit
 * Admin js and css included
+* WP rocket license auto installation via `post-install.sh` or `post-update.sh`
 
 Use [EasyEngine-Vagrant](https://github.com/DimaMinka/easyengine-vagrant) for additional features:
 
