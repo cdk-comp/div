@@ -31,10 +31,10 @@
       "package": {
         "name": "wp-premium/divi",
         "type": "wordpress-theme",
-        "version": "3.0.95",
+        "version": "3.0.100",
         "dist": {
           "type": "zip",
-          "url": "https://github.com/wp-premium-themes/Divi/archive/v3.0.95.zip"
+          "url": "https://github.com/wp-premium-themes/Divi/archive/v3.0.100.zip"
         },
         "require" : {
           "composer/installers": "~1.0"
@@ -46,10 +46,10 @@
       "package": {
         "name": "wp-premium/wp-rocket",
         "type": "wordpress-plugin",
-        "version": "2.11.4",
+        "version": "2.11.5",
         "dist": {
           "type": "zip",
-          "url": "https://github.com/wp-premium-themes/wp-rocket/archive/v2.11.4.zip"
+          "url": "https://github.com/wp-premium-themes/wp-rocket/archive/v2.11.5.zip"
         },
         "require" : {
           "composer/installers": "~1.0"
