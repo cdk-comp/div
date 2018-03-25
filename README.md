@@ -89,3 +89,11 @@ Bedrock documentation is available at [https://roots.io/bedrock/docs/](https://r
 
 [roots-wp-salt]:https://roots.io/salts.html
 [wp-cli-dotenv]:https://github.com/aaemnnosttv/wp-cli-dotenv-command
+
+## Todo
+- [ ] script for auto renaming
+- [ ] smtp must-use plugin
+- [ ] composer.lock remove from git
+- [ ] upgrade auto install
+- [ ] pipeline for autodeploy (CI/CD)
+- [ ] fix for Divi template name
