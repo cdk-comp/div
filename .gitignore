@@ -40,7 +40,6 @@ vendor/*
 .idea
 node_modules
 bower_components
-public
 Movefile
 !Movefile.example
 *.sql
@@ -48,7 +47,6 @@ Movefile
 !*.gz
 
 # EasyEngine
-conf
 ee-config.php
 htdocs
 logs
