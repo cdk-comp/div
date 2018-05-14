@@ -31,10 +31,10 @@
       "package": {
         "name": "wp-premium/divi",
         "type": "wordpress-theme",
-        "version": "3.0.100",
+        "version": "3.2.2",
         "dist": {
           "type": "zip",
-          "url": "https://github.com/wp-premium-themes/Divi/archive/v3.0.100.zip"
+          "url": "https://github.com/wp-premium-themes/Divi/archive/v3.2.2.zip"
         },
         "require" : {
           "composer/installers": "~1.0"
@@ -46,10 +46,10 @@
       "package": {
         "name": "wp-premium/wp-rocket",
         "type": "wordpress-plugin",
-        "version": "2.11.5",
+        "version": "3.0.4",
         "dist": {
           "type": "zip",
-          "url": "https://github.com/wp-premium-themes/wp-rocket/archive/v2.11.5.zip"
+          "url": "https://github.com/wp-premium-themes/wp-rocket/archive/v3.0.4.zip"
         },
         "require" : {
           "composer/installers": "~1.0"
@@ -68,7 +68,6 @@
     "wpackagist-plugin/limit-login-attempts": "*",
     "wpackagist-plugin/redirection": "*",
     "wpackagist-plugin/wordpress-seo": "*",
-    "wpackagist-plugin/wp-mail-smtp": "*",
     "wp-premium/divi": "*",
     "wp-premium/wp-rocket": "*"
   },
